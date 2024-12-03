@@ -1,0 +1,8 @@
+
+CREATE TABLE time_spent (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    time_spent INT NOT NULL,
+    started_at TIMESTAMP NOT NULL,
+    app_id VARCHAR(255) NOT NULL,
+    url VARCHAR(2048) NOT NULL
+);
